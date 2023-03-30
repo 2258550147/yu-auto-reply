@@ -32,11 +32,11 @@ task:
     size: 1
   # 任务列表，支持配置多个
   list:
-    - name: task1 #任务名
-      monitor: zsxq #监控者
-      answerer: openai #回答者
-      cron: '0/30 * * * * ?' #执行周期
-#    - name: task2
-#      monitor: default
-#      answerer: default
-#      cron: '0/10 * * * * ?'
+#    - name: task1 #任务名
+#      monitor: zsxq #监控者
+#      answerer: openai #回答者
+#      cron: '0/30 * * * * ?' #执行周期
+     - name: task2
+       monitor: default
+       answerer: default
+       cron: '0/10 * * * * ?'
